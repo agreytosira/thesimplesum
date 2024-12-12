@@ -1,6 +1,7 @@
 import { Roboto } from 'next/font/google';
 import './globals.css';
 import './_typography.css';
+import Navbar from './components/Navbar';
 
 const roboto = Roboto({
   weight: ['100', '300', '400', '500', '700', '900'],
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={`${roboto.variable} ${roboto.className} antialiased`}>
+        <Navbar />
         <main>{children}</main>
       </body>
     </html>
