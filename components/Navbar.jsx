@@ -69,8 +69,8 @@ export default function Navbar() {
             {currentCountry}
             <RiArrowDownSLine size={24} className={`transition-transform duration-300 ${showCountryDropdown ? 'rotate-180' : 'rotate-0'}`} />
             {showCountryDropdown && (
-              <div className='py-8 absolute top-0 left-0 '>
-                <div className='bg-white shadow-md p-2 w-40 rounded-xl'>
+              <div className='py-8 absolute top-0 left-0 z-[50]'>
+                <div className='bg-white shadow-md p-2 w-40 rounded-xl '>
                   <ul>
                     <button
                       onClick={() => {
