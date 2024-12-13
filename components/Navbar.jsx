@@ -154,7 +154,7 @@ export default function Navbar() {
       </Link>
       <div className='container px-0'>
         <div className='flex items-stretch'>
-          <div className='flex items-center bg-white py-2 pl-8 rounded-l-[2rem] w-[85%] navbar-shadow'>
+          <div className='flex items-center bg-white py-2 pl-8 rounded-l-[2rem] w-[85%] navbar-shadow z-10'>
             <Link className=' flex justify-center items-center px-2' href='/'>
               <Image src='/thesimplesum-logo.png' alt='TheSimpleSum Logo' className='w-[171px]' width={171} height={30} />
             </Link>
@@ -211,7 +211,7 @@ export default function Navbar() {
               </NavigationMenu>
             </div>
           </div>
-          <button className='flex gap-2 items-center justify-center bg-secondary hover:bg-secondary-high h-auto rounded-r-[2rem] text-white w-[15%]'>
+          <button className='flex gap-2 items-center justify-center bg-secondary hover:bg-secondary-high h-auto rounded-r-[2rem] text-white w-[15%] z-10'>
             Search Here
             <Image src='/icon-search.svg' alt='Search Icon' width={34} height={34} />
           </button>
