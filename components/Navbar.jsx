@@ -211,7 +211,7 @@ export default function Navbar() {
               </NavigationMenu>
             </div>
           </div>
-          <button className='flex gap-2 items-center justify-center bg-secondary h-auto rounded-r-[2rem] text-white w-[15%]'>
+          <button className='flex gap-2 items-center justify-center bg-secondary hover:bg-secondary-high h-auto rounded-r-[2rem] text-white w-[15%]'>
             Search Here
             <Image src='/icon-search.svg' alt='Search Icon' width={34} height={34} />
           </button>

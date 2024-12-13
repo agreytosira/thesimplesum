@@ -1,7 +1,6 @@
 import './globals.css';
 import './_typography.css';
-import Navbar from './components/Navbar';
-import { NavigationMenuDemo } from './components/Navbar2';
+import Navbar from '../components/Navbar';
 
 // import { Roboto } from 'next/font/google';
 // const roboto = Roboto({
