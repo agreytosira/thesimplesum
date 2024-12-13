@@ -61,7 +61,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header>
+    <header className='hidden md:block'>
       <div className='py-4 bg-[#f4f4f4]'>
         <div className='container flex items-center justify-between'>
           <div className='flex items-center gap-2 relative' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
