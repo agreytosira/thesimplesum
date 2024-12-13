@@ -154,7 +154,7 @@ export default function Navbar() {
       </Link>
       <div className='container px-0'>
         <div className='flex items-stretch'>
-          <div className='flex items-center bg-white py-2 px-8 rounded-l-[2rem] w-[85%]'>
+          <div className='flex items-center bg-white py-2 px-8 rounded-l-[2rem] w-[85%] navbar-shadow'>
             <Link className=' flex justify-center items-center px-2' href='/'>
               <Image src='/thesimplesum-logo.png' alt='TheSimpleSum Logo' className='w-[171px]' width={171} height={30} />
             </Link>

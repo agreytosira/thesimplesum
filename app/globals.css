@@ -67,3 +67,9 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
 }
+
+@layer utilities {
+  .navbar-shadow {
+    box-shadow: 0 10 20 0 hsla(0, 0%, 0%, 0.16);
+  }
+}
